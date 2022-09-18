@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Battle Arena Wars</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="assets/javascript/characters.js"></script>
+        <script src="assets/javascript/game.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    </head>
+
+    <body>
+
+        <div id="Header">
+            <h1>Battle Arena Wars</h1>
+        </div>
+        
+        <div class="CharacterSelect">
+            <h2>Select Your Character:</h2>
+            <!-- All character dynamically generated here -->
+        </div> 
+
+        <div class="EnemySelect">
+            <h2>Available Enemies:</h2>
+            <!-- All enemies dynamically generated here -->
+        </div>
+
+        <div class="FightSection">
+            <h2>Fight Area:</h2>
+            <button type="button">Attack</button>
+        </div>
+
+        <div class="DefenderArea">
+            <h2>Defender:</h2>
+            <div id="Defender">
+
+            </div>
+        </div>
+
+        <div class="BattleStatus">
+            <h2>Status:</h2>  
+            <p id="BattleMsg"> </p>
+        </div>
+    </body>
+</html>
